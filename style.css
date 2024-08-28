@@ -1,0 +1,86 @@
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-size: cover;
+}
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: fit-content;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+    background-color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-size: cover;
+}
+.frame{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 228px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.9);
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: black;
+   
+}
+.img{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.frame :hover{
+    scale: 1.1;
+    opacity: 0.8;
+}
+#mypic{
+    
+    height: 100%;
+    width: fit-content;
+}
+.lightbox{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+   
+}
+.fullimage{
+    height: fit-content;
+    width: fit-content;   
+    align-items: center;
+    justify-content: center;
+}
+#close{
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
